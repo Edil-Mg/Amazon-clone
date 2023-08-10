@@ -1,0 +1,75 @@
+.home {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+	overflow: hidden; /* Hide overflow content */
+}
+.home__row {
+	display: flex;
+	z-index: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.home__image {
+	width: 100%;
+	z-index: -1;
+	margin-bottom: -150px;
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.top__row {
+	display: flex;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.bottom__row {
+	display: flex;
+	z-index: 1;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.title {
+	text-align: left;
+	font-weight: bold;
+	padding-right: 90px;
+	padding-left: 10px;
+	padding-top: 15px;
+	font-size: 20px;
+}
+.description {
+	text-align: left;
+	padding-right: 150px;
+	padding-left: 10px;
+	color: rgb(10, 125, 141);
+	font-weight: 500;
+}
+.link {
+	text-decoration: none;
+}
+.insider__row {
+  background-color: white;
+  box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+   /* transition: transform 0.1s ease-in, background-color 0.1s ease-in;  */
+   width: auto;
+}
+
+.insider__row:hover {
+  transform: scale(1.05);
+  /* background-color: #f0f0f0;  */
+}
+.home__container {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Add smooth transition effect */
+}
+
+/* Apply animation classes to slide the content */
+.slide-left {
+  transform: translateX(-100%);
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
