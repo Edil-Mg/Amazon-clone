@@ -70,3 +70,21 @@
 .header__clearlink {
     text-decoration: none;
 }
+.header__optionLineOne {
+    font-size: 12px;
+    margin-right: 5px;
+      color: white;
+       display: block;
+}
+
+.header__optionLineTwo {
+    font-size: 14px;
+    font-weight: 800;
+      color: white;
+       display: block;
+       margin-right: 5px;
+}
+.header__deliveryIcon {
+    display: block;
+    color: white;
+}
