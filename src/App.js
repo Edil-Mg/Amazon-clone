@@ -14,13 +14,13 @@ import Login from "./Components/Login/Login";
 import MoreProducts from "./Components/MoreProducts/MoreProducts";
 import Payment from "./Components/Payments/Payment";
 import Orders from "./Components/Orders/Orders";
+import Carousel from "./Components/Carousel/Carousel";
 
 const promise = loadStripe(
 	"pk_test_51Nd2FSINVaoEEQY3RnU6Jw5mQ4UsB0EkMuWCmyfblnRuN0UMe22wxQELsOqNpQ4ngOGdySfCHKY1xNiT671s57aT00j2f3Xczi"
 );
 
-// secret key
-// sk_test_51Nd2FSINVaoEEQY3K90L9HUZ7m2kCjesmSc1HLiUY12OIU5mG4A4ngHl8vwj7nDJ92x6EQjdlTcG7lStaYFuyaFg00Ni7LNHkh;
+
 
 function App() {
 	const [{}, dispatch] = useStateValue();
@@ -100,6 +100,7 @@ function App() {
 						element={
 							<>
 								<Header />
+								<Carousel />
 								<Home />
 							</>
 						}

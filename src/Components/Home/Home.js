@@ -5,18 +5,18 @@ import Row from '../Row/Row';
 import RowSingle from '../RowSingle/RowSingle';
 import { Link } from 'react-router-dom';
 
+
+
 function Home() {
   return (
 		<div className="home">
 			<div className="home__conatiner">
 				<img
-					className="home__image"
-					// src="https://m.media-amazon.com/images/I/61vye+ube-L._SX3000_.jpg"
-					// src="https://m.media-amazon.com/images/I/61HBeh4tctL._SX3000_.jpg"
-					// src="https://m.media-amazon.com/images/I/61ZxL5rpLTL._SX3000_.jpg"
-					// src="https://m.media-amazon.com/images/I/71mXZ5RCedL._SX3000_.jpg"
-					src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-					alt=""
+					// className="home__image"
+					// //src="https://m.media-amazon.com/images/I/61ZxL5rpLTL._SX3000_.jpg"
+					// // src="https://m.media-amazon.com/images/I/71mXZ5RCedL._SX3000_.jpg"
+					// src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+					// alt=""
 				/>
 				<div className="home__row">
 					<RowSingle
