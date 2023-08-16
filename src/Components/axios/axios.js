@@ -1,5 +1,5 @@
-import axios from "axios"
+import axios from "axios";
 const instance = axios.create({
-	baseURL: "http://127.0.0.1:5001/clone-c80e8/us-central1/api",
+	baseURL: "https://amazonproject-bm0b.onrender.com/",
 });
-export default instance
+export default instance;

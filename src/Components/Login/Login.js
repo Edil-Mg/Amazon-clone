@@ -14,7 +14,7 @@ function Login() {
 	// const [{ basket, user }, dispatch] = useStateValue();
 
 	const signIn = (e) => {
-		e.preventDefault(); //(e) is a parameter that represents the event object
+		e.preventDefault(); 
 		signInWithEmailAndPassword(auth, email, password)
 			.then((userCredential) => {
 				if (userCredential) navigate("/");

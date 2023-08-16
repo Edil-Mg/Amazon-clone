@@ -30,7 +30,7 @@ function Header() {
 				<span className="header__deliveryIcon">
 					<LocationOnIcon fontSize="small" />
 				</span>
-				<span className="header__optionLineOne">Deliver to</span>
+				<span className="header__optionLineOne">Delivering to</span>
 				<span className="header__optionLineTwo">Your Location</span>
 			</Link>
 			<div className="header__search">

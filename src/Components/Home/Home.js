@@ -11,18 +11,17 @@ function Home() {
   return (
 		<div className="home">
 			<div className="home__conatiner">
-				<img
-					// className="home__image"
-					// //src="https://m.media-amazon.com/images/I/61ZxL5rpLTL._SX3000_.jpg"
-					// // src="https://m.media-amazon.com/images/I/71mXZ5RCedL._SX3000_.jpg"
-					// src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-					// alt=""
-				/>
+				{/* <img
+					src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+					alt=""
+				/> */}
 				<div className="home__row">
-					<RowSingle
-						tittle="Ready for anything"
-						description="Allfashion"
-						image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/STANLEY/CategoryCard_2x_d_Stanley._SY608_CB588619800_.jpg"
+					<Product
+						id="3254354345"
+						title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+						price={598.99}
+						rating={4}
+						image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
 					/>
 					<Product
 						id="4903850"
@@ -47,85 +46,44 @@ function Home() {
 					/>
 				</div>
 				<div className="home__row">
-					<div className="insider__row">
-						<div class="title">Must-see fashion deals</div>
-						<Link to="/moreproducts" className="link">
-							<div className="top__row">
-								<Row
-									id="12329041"
-									description="Allfashion"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/SITE_FLIPS/SUM23/GW/JULY/QC/Desktop/QuadCard_2x_d_SummerEdit_July_AllDeals_D1._SY232_CB602109167_.jpg"
-								/>
-								<Row
-									id="46538094"
-									description="Women's"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/SITE_FLIPS/SUM23/GW/JULY/QC/Desktop/QuadCard_1x_d_SummerEdit_July_WDeals_D2._SY116_CB602098077_.jpg"
-								/>
-							</div>
-
-							<div className="bottom__row">
-								<Row
-									id="12321361"
-									description="Men's"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/SITE_FLIPS/SUM23/GW/JULY/QC/Desktop/QuadCard_2x_d_SummerEdit_July_MenDeals_D3._SY232_CB602109167_.jpg"
-								/>
-
-								<Row
-									id="49538841"
-									description="Kids"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/SITE_FLIPS/SUM23/GW/JULY/QC/Desktop/QuadCard_1x_d_SummerEdit_July_KidsDeals_D4._SY116_CB602098077_.jpg"
-								/>
-							</div>
-						</Link>
-
-						<Link to="/moreproducts" className="link">
-							<p className="description">Shop style savings</p>
-						</Link>
-					</div>
-					<Product
-						id="12321341"
-						title="IRON °FLASK Sports Water Bottle - 32oz, 3 Lids (Straw Lid), Leak Proof - Stainless Steel Gym & Sport Bottles for Men, Women & Kids - Double Walled, Insulated Thermos, Metal Canteen"
-						price={21.99}
-						rating={5}
-						image="https://m.media-amazon.com/images/I/31pEOGK+0-L._SY500__AC_SY400_.jpg"
+					<Row
+						tittle="Pre-loved fashion for all"
+						image1="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_WGACA_B1._SY232_CB600352808_.jpg"
+						subtitle1="Iconic Vintage"
+						image2="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Wclothing_A1._SY232_CB600352808_.jpg"
+						subtitle2="Women's clothing"
+						image3="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Menclothing_A4._SY232_CB600352808_.jpg"
+						subtitle3="Men's clothing"
+						image4="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_RTR_B4._SY232_CB600352808_.jpg"
+						subtitle4="Rent the Runway"
+						description="Shop all pre-loved fashions"
 					/>
 
-					<div className="insider__row">
-						<div class="title">Must-see fashion deals</div>
-						<Link to="/moreproducts" className="link">
-							<div className="top__row">
-								<Row
-									id="12329041"
-									description="Iconic Vintage"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_WGACA_B1._SY232_CB600352808_.jpg"
-								/>
-								<Row
-									id="46538094"
-									description="Women's clothing"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Wclothing_A1._SY232_CB600352808_.jpg"
-								/>
-							</div>
+					<RowSingle
+						tittle="Ready for anything"
+						image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/STANLEY/CategoryCard_1x_d_Stanley._SY304_CB588619800_.jpg"
+						description="Shop style savings"
+					/>
 
-							<div className="bottom__row">
-								<Row
-									id="12321361"
-									description="Men's clothing"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Menclothing_A4._SY232_CB600352808_.jpg"
-								/>
-
-								<Row
-									id="49538841"
-									description="Rent the Runway"
-									image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_RTR_B4._SY232_CB600352808_.jpg"
-								/>
-							</div>
-						</Link>
-
-						<Link to="/moreproducts" className="link">
-							<p className="description">Shop all pre-loved fashions</p>
-						</Link>
-					</div>
+					<Row
+						tittle="Pre-loved fashion for all"
+						image1="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_WGACA_B1._SY232_CB600352808_.jpg"
+						subtitle1="Iconic Vintage"
+						image2="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Wclothing_A1._SY232_CB600352808_.jpg"
+						subtitle2="Women's clothing"
+						image3="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Menclothing_A4._SY232_CB600352808_.jpg"
+						subtitle3="Men's clothing"
+						image4="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_RTR_B4._SY232_CB600352808_.jpg"
+						subtitle4="Rent the Runway"
+						description="Shop all pre-loved fashions"
+					/>
+					<RowSingle
+						tittle="The swim shop"
+						image="https://images-na.ssl-images-amazon.com/images/G/01/softlines/shopbop/ingress/2023/June/CategoryCards/mp_20230605_swim_desktopsinglecategory_desktop_758x608._SY304_CB589286520_.jpg"
+						description="See more from Shopbop"
+					/>
 				</div>
+
 				<div className="home__row">
 					<Product
 						id="90829332"
@@ -136,13 +94,6 @@ function Home() {
 					/>
 				</div>
 				<div className="home__row">
-					<Product
-						id="3254354345"
-						title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-						price={598.99}
-						rating={4}
-						image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
-					/>
 					<Product
 						id="5904850"
 						title="BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo NES Games"
@@ -164,6 +115,14 @@ Pre-Loved Stainless Steel & 18k Yellow Gold Daytona Cosmograph 115523 40mm, Blac
 						price={4650.0}
 						rating={4}
 						image="https://m.media-amazon.com/images/I/81aTpXKXT3L._AC_UL480_QL65_.jpg"
+					/>
+
+					<Product
+						id="12321341"
+						title="IRON °FLASK Sports Water Bottle - 32oz, 3 Lids (Straw Lid), Leak Proof - Stainless Steel Gym & Sport Bottles for Men, Women & Kids - Double Walled, Insulated Thermos, Metal Canteen"
+						price={21.99}
+						rating={5}
+						image="https://m.media-amazon.com/images/I/31pEOGK+0-L._SY500__AC_SY400_.jpg"
 					/>
 				</div>
 			</div>
