@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Row.css"
 import { Link } from "react-router-dom";
+import MoreProducts from '../MoreProducts/MoreProducts';
 
 
 
@@ -18,7 +19,7 @@ function Row({
 }) {
 	return (
 		<div className="row">
-			<h2 className="single__tittle">{tittle}</h2>
+			<p className="single__tittle">{tittle}</p>
 			<div className="row__container">
 				<div className="top__row">
 					<div className="img__one">
@@ -51,7 +52,7 @@ function Row({
 					</div>
 				</div>
 			</div>
-			<Link to="/moreproducts" className="link">
+			<Link to="/moreproducts" className="b__link">
 				<span className="linked__desc">{description} </span>
 			</Link>
 		</div>

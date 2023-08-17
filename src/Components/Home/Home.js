@@ -1,14 +1,12 @@
-import React from 'react'
-import "./Home.css"
-import Product from "../Product/Product"
-import Row from '../Row/Row';
-import RowSingle from '../RowSingle/RowSingle';
-import { Link } from 'react-router-dom';
-
-
+import React from "react";
+import "./Home.css";
+import Product from "../Product/Product";
+import Row from "../Row/Row";
+import RowSingle from "../RowSingle/RowSingle";
+// import { Link } from 'react-router-dom';
 
 function Home() {
-  return (
+	return (
 		<div className="home">
 			<div className="home__conatiner">
 				{/* <img
@@ -19,7 +17,7 @@ function Home() {
 					<Product
 						id="3254354345"
 						title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-						price={598.99}
+						price={289.99}
 						rating={4}
 						image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
 					/>
@@ -33,7 +31,7 @@ function Home() {
 					<Product
 						id="4903850"
 						title="Parsonver Smart Watch for Men Women(Dial/Answer Calls) 1.91 HD Touch Screen Fitness Tracker Sports Modes IP68 Waterproof Heart Rate Sleep Blood Oxygen Monitor for iOS Android Phones"
-						price={199.99}
+						price={97.99}
 						rating={3}
 						image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
 					/>
@@ -66,15 +64,15 @@ function Home() {
 					/>
 
 					<Row
-						tittle="Pre-loved fashion for all"
-						image1="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_WGACA_B1._SY232_CB600352808_.jpg"
-						subtitle1="Iconic Vintage"
-						image2="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Wclothing_A1._SY232_CB600352808_.jpg"
-						subtitle2="Women's clothing"
-						image3="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_Menclothing_A4._SY232_CB600352808_.jpg"
-						subtitle3="Men's clothing"
-						image4="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/MISC/PRE_LOVED/GW/QC/Desktop/QuadCard_d_2x_Preloved_RTR_B4._SY232_CB600352808_.jpg"
-						subtitle4="Rent the Runway"
+						tittle="Made in Italy"
+						image1="https://images-na.ssl-images-amazon.com/images/G/01/ACS/Made_in_Italy/2023/GWs/01-Jan/QC-D_BA_Food_372x232._SY232_CB619437081_.jpg"
+						subtitle1="Food"
+						image2="https://images-na.ssl-images-amazon.com/images/G/01/ACS/Made_in_Italy/2023/GWs/05-May/mmonicel_GW_card_apparel_372x232._SY232_CB591762938_.jpg"
+						subtitle2="Apparel"
+						image3="https://images-na.ssl-images-amazon.com/images/G/01/ACS/Made_in_Italy/2023/GWs/02-Feb/QC-D_BA_Furniture_372x232._SY232_CB614009005_.jpg"
+						subtitle3="Home"
+						image4="https://images-na.ssl-images-amazon.com/images/G/01/ACS/Made_in_Italy/2023/GWs/05-May/mmonicel_GW_card_B3_372x232._SY232_CB591762939_.jpg"
+						subtitle4="Beauty"
 						description="Shop all pre-loved fashions"
 					/>
 					<RowSingle
@@ -97,14 +95,14 @@ function Home() {
 					<Product
 						id="5904850"
 						title="BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo NES Games"
-						price={199.57}
+						price={95.57}
 						rating={4}
 						image="https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_SY450_.jpg"
 					/>
 					<Product
 						id="1203850"
 						title="Sceptre Curved 24-inch Gaming Monitor 1080p R1500 98% sRGB HDMI x2 VGA Build-in Speakers, VESA Wall Mount Machine Black (C248W-1920RN Series)"
-						price={89.97}
+						price={989.97}
 						rating={3}
 						image="https://m.media-amazon.com/images/I/71P0M7tKjYL._AC_UL600_FMwebp_QL65_.jpg"
 					/>
@@ -130,4 +128,4 @@ Pre-Loved Stainless Steel & 18k Yellow Gold Daytona Cosmograph 115523 40mm, Blac
 	);
 }
 
-export default Home
+export default Home;

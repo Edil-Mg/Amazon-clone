@@ -1,0 +1,6 @@
+.homeTwo__row {
+	display: flex;
+	z-index: 1;
+	margin: 10px;
+	background-color: white;
+}

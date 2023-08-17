@@ -11,16 +11,14 @@ import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Checkout from "./Components/Checkout/Checkout";
 import Login from "./Components/Login/Login";
-import MoreProducts from "./Components/MoreProducts/MoreProducts";
 import Payment from "./Components/Payments/Payment";
 import Orders from "./Components/Orders/Orders";
 import Carousel from "./Components/Carousel/Carousel";
+import HomeTwo from "./Components/HomeTwo/HomeTwo";
 
 const promise = loadStripe(
 	"pk_test_51Nd2FSINVaoEEQY3RnU6Jw5mQ4UsB0EkMuWCmyfblnRuN0UMe22wxQELsOqNpQ4ngOGdySfCHKY1xNiT671s57aT00j2f3Xczi"
 );
-
-
 
 function App() {
 	const [{}, dispatch] = useStateValue();
@@ -90,7 +88,7 @@ function App() {
 						element={
 							<>
 								<Header />
-								<MoreProducts />
+								<HomeTwo />
 							</>
 						}
 					/>

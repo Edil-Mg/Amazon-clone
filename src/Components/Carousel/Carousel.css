@@ -4,7 +4,7 @@
   align-items: center;
   max-width: 1600px; 
   margin: 0 auto; 
-  height: 600px; 
+  height: 500px; 
   margin-bottom: -200px;
     z-index: -1;
 }
@@ -19,4 +19,15 @@
      transform: scale(1.02); 
   transition: transform 0.05; 
 }
+
+.carousel-container .swiper-button-next::after,
+.carousel-container .swiper-button-prev::after {
+  font-family: "swiper-icons"; /* This is the font used for the arrow icons */
+  /* Set the text color to white */
+  color: black;
+  margin-bottom: 200px;
+  /* Adjust other styling properties as needed */
+}
+
+
 
