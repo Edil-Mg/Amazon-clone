@@ -25,6 +25,12 @@ const Carousel = () => {
 			>
 				<SwiperSlide>
 					<img
+						src="https://m.media-amazon.com/images/I/716hd-GCReL._SX3000_.jpg"
+						style={{}}
+					/>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img
 						src="https://m.media-amazon.com/images/I/71jgwIu4ZsL._SX3000_.jpg"
 						style={{}}
 					/>
@@ -41,12 +47,7 @@ const Carousel = () => {
 						style={{}}
 					/>
 				</SwiperSlide>
-				<SwiperSlide>
-					<img
-						src="https://m.media-amazon.com/images/I/61n0HKriWZL._SX3000_.jpg"
-						style={{}}
-					/>
-				</SwiperSlide>
+
 				<SwiperSlide>
 					<img
 						src="https://m.media-amazon.com/images/I/61Hjccck3rL._SX3000_.jpg"

@@ -1,5 +1,14 @@
-.header {
+/* .header {
   height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+} */
+.header {
+  height: auto; /* Remove fixed height */
   display: flex;
   align-items: center;
   background-color: #131921;
@@ -8,11 +17,18 @@
   z-index: 100;
 }
 
-.header__logo {
+/* .header__logo {
   width: 100px;
   object-fit: contain;
   margin: 0 20px;
   margin-top: 18px;
+} */
+.header__logo {
+  width: auto; 
+  height: 40px; 
+  margin-top: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__search {
@@ -26,13 +42,15 @@
   height: 12px;
   padding: 10px;
   border: none;
-  width: 100%;
+  width: 600px;
 }
 
 .header_searchIcon {
-  padding: 5px;
-  height: 22px !important;
+  padding: 3px; /* Adjust icon padding for smaller screens */
+
+  height: 26px !important;
   background-color: #cd9042;
+
 }
 
 .header__optionLineOne {

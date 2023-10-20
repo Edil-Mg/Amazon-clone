@@ -3,8 +3,8 @@
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1500px;
-	overflow: hidden; 
+	max-width: 100%;
+	overflow: hidden;
 }
 .home__row {
 	display: flex;
@@ -12,7 +12,8 @@
 	margin: 10px;
 	background-color: white;
 }
-
-
-
-
+@media (max-width: 768px) {
+  .home__row {
+    margin: 5px;
+  }
+}
