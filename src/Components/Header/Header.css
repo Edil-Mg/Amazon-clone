@@ -8,13 +8,13 @@
   z-index: 100;
 } */
 .header {
-  height: auto; /* Remove fixed height */
-  display: flex;
-  align-items: center;
-  background-color: #131921;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+	height: auto; /* Remove fixed height */
+	display: flex;
+	align-items: center;
+	background-color: #131921;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 
 /* .header__logo {
@@ -24,85 +24,84 @@
   margin-top: 18px;
 } */
 .header__logo {
-  width: auto; 
-  height: 40px; 
-  margin-top: 10px; 
-  margin-left: 10px;
-  margin-right: 10px;
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .header__search {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  border-radius: 24px;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	border-radius: 24px;
 }
 
 .header__searchInput {
-  height: 12px;
-  padding: 10px;
-  border: none;
-  width: 600px;
+	height: 16px;
+	padding: 10px;
+	border: none;
+	width: 550px;
 }
 
 .header_searchIcon {
-  padding: 3px; /* Adjust icon padding for smaller screens */
+	padding: 3px; /* Adjust icon padding for smaller screens */
 
-  height: 26px !important;
-  background-color: #cd9042;
-
+	height: 30px !important;
+	background-color: #cd9042;
 }
 
 .header__optionLineOne {
-  font-size: 10px;
+	font-size: 10px;
 }
 
 .header__optionLineTwo {
-  font-size: 13px;
-  font-weight: 800;
+	font-size: 13px;
+	font-weight: 800;
 }
 
 .header__optionBasket {
-  display: flex;
-  align-items: center;
-  color: white;
+	display: flex;
+	align-items: center;
+	color: white;
 }
 
 .header__basketCount {
-  margin-left: 10px;
-  margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .header__nav {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .header__option {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: white;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
 }
 .header__clearlink {
-    text-decoration: none;
+	text-decoration: none;
 }
 .header__optionLineOne {
-    font-size: 12px;
-    margin-right: 5px;
-      color: white;
-       display: block;
+	font-size: 12px;
+	margin-right: 5px;
+	color: white;
+	display: block;
 }
 
 .header__optionLineTwo {
-    font-size: 14px;
-    font-weight: 800;
-      color: white;
-       display: block;
-       margin-right: 5px;
+	font-size: 14px;
+	font-weight: 800;
+	color: white;
+	display: block;
+	margin-right: 5px;
 }
 .header__deliveryIcon {
-    display: block;
-    color: white;
+	display: block;
+	color: white;
 }

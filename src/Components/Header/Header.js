@@ -34,7 +34,7 @@ function Header() {
 				<span className="header__optionLineTwo">Your Location</span>
 			</Link>
 			<div className="header__search">
-				<input className="header__searchInput" type="text" />
+				<input className="header__searchInput" type="text" placeholder='Search Amazon'/>
 				<SearchIcon className="header_searchIcon" />
 			</div>
 
